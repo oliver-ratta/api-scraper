@@ -10,7 +10,7 @@ int leaks = 0;
 int checktext(char *line) {
 
     char *patterns[] = {
-        "sk-",
+        "sk-",          // theese are commen api extentions 
         "sk-ant-",
         "AIza",
         "gsk_",
